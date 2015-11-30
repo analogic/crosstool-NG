@@ -56,7 +56,7 @@ $ ./esptool.py --port /dev/ttyUSB0 write_flash 0x00000 0.9.4/512k-flash/nodemcu_
 To validate, connect with the ESP8266 via serial and send commands:
 
 ```
-screen /dev/ttyUSB0 9600
+miniterm.py /dev/ttyUSB0 9600
 
 >> node.restart();
 NodeMcu 0.9.4 build 20141222  powered by Lua 5.1.4
